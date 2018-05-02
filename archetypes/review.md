@@ -1,5 +1,5 @@
 ---
-title: Title here - normally Book Name by Author
+title: Title here, normally Book Name by Author
 date: {{ .Date }}
 draft: true
 book_title: title
