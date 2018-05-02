@@ -1,5 +1,5 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: Title here - normally Book Name by Author
 date: {{ .Date }}
 draft: true
 book_title: title
