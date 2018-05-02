@@ -52,3 +52,7 @@ fields:
   type: boolean
   hidden: false
   default: true
+- type: text
+  name: publish-date
+  label: publish-date
+  description: Date that the book was published / going to be published.
