@@ -11,6 +11,6 @@ affiliate_link: http://example.com/bob
 ---
 
 
-**Insert Lead paragraph here.****
+**Insert Lead paragraph here.**
 
 **Rest of review**
