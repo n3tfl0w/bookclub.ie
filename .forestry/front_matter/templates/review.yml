@@ -6,17 +6,17 @@ fields:
   label: Title
   type: text
   hidden: false
-  default: ''
+  default: 'Review Title (Normally: book-title by author)'
 - name: date
   label: Date
   type: datetime
   hidden: false
-  default: 
+  default: Invalid date
 - name: book_title
   label: Book title
   type: text
   hidden: false
-  default: title
+  default: book title
 - name: isbn_13
   label: Isbn 13
   type: text
@@ -31,12 +31,18 @@ fields:
   label: Publisher
   type: text
   hidden: false
-  default: Bob the Builder
-- name: cover
+  default: Bob the publisher
+- type: datetime
+  name: publish-date
+  label: publish-date
+  description: Date that the book was published / going to be published
+  default: 2018-05-03 23:00:00 +0000
+  config:
+    date_format: DD/MM/YYYY
+- type: file
+  name: cover
   label: Cover
-  type: text
-  hidden: false
-  default: "/images/bob-thecover.jpg"
+  description: Book cover image / or other descriptive image
 - name: affiliate_link
   label: Affiliate link
   type: text
@@ -52,7 +58,3 @@ fields:
   type: boolean
   hidden: false
   default: true
-- type: text
-  name: publish-date
-  label: publish-date
-  description: Date that the book was published / going to be published.
