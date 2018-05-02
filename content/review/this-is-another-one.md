@@ -11,8 +11,6 @@ publisher = "Bob the publisher"
 title = "This is another one"
 
 +++
-
-
 **Insert Lead paragraph here.**
 
 **Rest of review**
